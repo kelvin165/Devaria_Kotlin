@@ -26,7 +26,7 @@ fun main() {
 
     if (operador.isNullOrEmpty()|| operador.isNullOrBlank() ||
         (operador != null && operador != "+" && operador != "-" && operador != "*" && operador !="/" &&operador !="%" )){
-        println("Operador invalido")
+        println("Operador é invalido")
         return
     }
     println("Digite o segundo número válido")
